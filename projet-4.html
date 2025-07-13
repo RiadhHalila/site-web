@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 4: Application Mobile Fitness - Agence Web Créative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo Agence Web Créative"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="realisations.html" class="active">Réalisations</a></li>
+                    <li><a href="a-propos.html">À Propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="project-hero" class="hero-section">
+            <div class="container">
+                <h1>Projet 4: Application Mobile Fitness</h1>
+                <p>Une application mobile intuitive pour un suivi sportif personnalisé.</p>
+            </div>
+        </section>
+
+        <section id="project-details" class="content-section">
+            <div class="container">
+                <h2>Détails du Projet</h2>
+                <p>Nous avons développé une application mobile complète pour une startup dans le domaine du fitness. L\'objectif était de créer une plateforme conviviale permettant aux utilisateurs de suivre leurs activités physiques, de planifier leurs entraînements, de suivre leur progression et d\'accéder à des programmes de coaching personnalisés.</p>
+                <p>L\'application intègre des fonctionnalités telles que le suivi GPS pour la course à pied et le cyclisme, un journal d\'entraînement détaillé, des statistiques de performance, des défis personnalisés et une intégration avec des objets connectés (montres, capteurs). L'interface utilisateur a été conçue pour être motivante et facile à utiliser, avec des visualisations claires des données de progression.</p>
+                
+                <h3>Technologies Utilisées</h3>
+                <ul>
+                    <li>React Native pour le développement multiplateforme</li>
+                    <li>Node.js et Express pour le backend API</li>
+                    <li>MongoDB pour la base de données</li>
+                    <li>Intégration d\'APIs tierces pour les données sportives et la géolocalisation</li>
+                </ul>
+
+                <h3>Résultats et Impact</h3>
+                <p>L\'application a été lancée avec succès sur iOS et Android, recevant d\'excellents retours des utilisateurs pour sa fluidité et la richesse de ses fonctionnalités. Elle a permis à notre client de se positionner comme un acteur innovant sur le marché du fitness digital, augmentant significativement l\'engagement de sa communauté.</p>
+                
+                    <div class="project-gallery" style="text-align: center;">
+                        <img src="images/projet4-mockup1.jpg" alt="Mockup Application Fitness 1" 
+                            style="max-width: 80%; height: auto; display: inline-block;">
+                    </div>
+
+                <a href="realisations.html" class="btn btn-primary">Retour aux Réalisations</a>
+            </div>
+        </section>
+
+        <section id="project-performance" class="content-section bg-light">
+            <div class="container">
+                <h2>Performance du Projet</h2>
+                <div class="chart-container">
+                    <canvas id="appFitnessChart"></canvas>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>À Propos de Nous</h3>
+                    <p>Agence Web Créative est votre partenaire pour une présence en ligne percutante. Nous transformons vos idées en succès numériques.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="realisations.html">Réalisations</a></li>
+                        <li><a href="a-propos.html">À Propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contactez-nous</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Rue du Web, 75001 Paris</p>
+                    <p><i class="fas fa-phone"></i>  +216 58 53 06 02</p>
+                    <p><i class="fas fa-envelope"></i> info@agencewebcreative.com</p>
+                </div>
+                <div class="footer-section social">
+                    <h3>Suivez-nous</h3>
+                    <a href="https://www.linkedin.com/in/riadh-halila-610081ba" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/riadh-halila-610081ba" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/riadh-halila-610081ba" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/riadh-halila-610081ba" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Agence Web Créative. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

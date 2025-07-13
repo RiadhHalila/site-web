@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Contenu - Agence Web Créative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo Agence Web Créative"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="realisations.html" class="active">Réalisations</a></li>
+                    <li><a href="a-propos.html">À Propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="project-hero" class="hero-section">
+            <div class="container">
+                <h1>Projet: Stratégie de Contenu</h1>
+                <p>Découvrez comment nous avons aidé notre client à captiver son audience.</p>
+            </div>
+        </section>
+
+        <section id="project-overview" class="content-section">
+            <div class="container">
+                <h2>Aperçu du Projet</h2>
+                <div class="project-details">
+                    <div class="project-image">
+                        <img src="images/projet-contenu.jpg" alt="Projet Stratégie de Contenu" style="max-width: 80%; height: auto; display: inline-block;">
+                    </div>
+                    <div class="project-description">
+                        <h3>Le Défi</h3>
+                        <p>Notre client, une entreprise de technologie émergente, avait besoin d'une stratégie de contenu solide pour établir son autorité dans l'industrie et engager sa cible. Le défi était de créer un contenu pertinent, optimisé pour le SEO, et qui résonne avec les besoins de leur audience.</p>
+                        <h3>Notre Solution</h3>
+                        <p>Nous avons développé une stratégie de contenu complète, incluant la recherche de mots-clés, la création de calendriers éditoriaux, la rédaction d'articles de blog, de livres blancs et de cas d'étude. Nous avons également mis en place une stratégie de distribution de contenu pour maximiser la portée.</p>
+                        <h3>Résultats</h3>
+                        <ul>
+                            <li>Augmentation de <strong>60%</strong> du trafic organique en 6 mois.</li>
+                            <li>Amélioration de <strong>40%</strong> du taux d'engagement sur les articles de blog.</li>
+                            <li>Positionnement en tant que leader d'opinion dans leur niche.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project-performance" class="content-section bg-light">
+            <div class="container">
+                <h2>Performance du Projet</h2>
+                <div class="chart-container">
+                    <canvas id="contentChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="project-gallery" class="content-section">
+            <div class="container">
+                <h2>Galerie du Projet</h2>
+                <div class="gallery-grid">
+                    <img src="images/contenu-galerie1.jpg" alt="Galerie Contenu 1">
+                    <img src="images/contenu-galerie2.jpg" alt="Galerie Contenu 2">
+                    <img src="images/contenu-galerie3.jpg" alt="Galerie Contenu 3">
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonial" class="content-section bg-light">
+            <div class="container">
+                <h2>Témoignage Client</h2>
+                <div class="testimonial-card">
+                    <img src="images/placeholder-avatar1.jpg" alt="Avatar du client" class="testimonial-author-img">
+                    <p>"L'équipe de l'Agence Web Créative a transformé notre approche du contenu. Leurs stratégies ont généré des résultats concrets et nous sommes ravis de notre collaboration."</p>
+                    <h4>- CEO, TechInnov Solutions</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="related-projects" class="content-section">
+            <div class="container">
+                <h2>Autres Projets Similaires</h2>
+                <div class="realisations-grid">
+                    <div class="realisation-item">
+                        <img src="images/projet1.jpg" alt="Projet 1">
+                        <h3>Site E-commerce Mode</h3>
+                        <p>Création d'une boutique en ligne élégante et performante.</p>
+                        <a href="realisations.html" class="btn btn-secondary">Voir le projet</a>
+                    </div>
+                    <div class="realisation-item">
+                        <img src="images/projet2.jpg" alt="Projet 2">
+                        <h3>Plateforme de Réservation</h3>
+                        <p>Développement d'un système de réservation intuitif et rapide.</p>
+                        <a href="realisations.html" class="btn btn-secondary">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>À Propos de Nous</h3>
+                    <p>Agence Web Créative est votre partenaire pour une présence en ligne percutante. Nous transformons vos idées en succès numériques.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="realisations.html">Réalisations</a></li>
+                        <li><a href="a-propos.html">À Propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contactez-nous</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Rue du Web, 75001 Paris</p>
+                    <p><i class="fas fa-phone"></i>  +216 58 53 06 02</p>
+                    <p><i class="fas fa-envelope"></i> info@agencewebcreative.com</p>
+                </div>
+                <div class="footer-section social">
+                    <h3>Suivez-nous</h3>
+                    <a href="https://www.linkedin.com/in/riadh-halila-610081ba" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/riadh-halila-610081ba" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/riadh-halila-610081ba" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/riadh-halila-610081ba" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Agence Web Créative. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
