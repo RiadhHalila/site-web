@@ -46,7 +46,6 @@ Ce projet présente un site web complet pour "Agence Web Créative", une agence 
 - Code HTML5 sémantique pour une structure claire et accessible
 - CSS3 avec Flexbox et Grid pour une mise en page flexible et moderne
 - JavaScript ES6+ moderne pour les interactions dynamiques et la gestion des graphiques
-- Optimisation SEO intégrée pour une meilleure visibilité sur les moteurs de recherche
 - Performance web optimisée pour un chargement rapide des pages
 
 ## 🛠 Technologies Utilisées
@@ -109,14 +108,6 @@ agence-web-creative/
    - Si vous n'utilisez pas de serveur local, ouvrez simplement le fichier `index.html` directement dans votre navigateur.
    - Si vous utilisez un serveur local, accédez à `http://localhost:8000` (ou le port que vous avez configuré) dans votre navigateur.
 
-### Déploiement
-
-Ce site est entièrement statique, ce qui le rend facile à déployer sur diverses plateformes d'hébergement. Il peut être hébergé sur :
-- GitHub Pages
-- Netlify
-- Vercel
-- Tout hébergeur web traditionnel supportant les fichiers statiques
-
 ## 📱 Responsive Design
 
 Le site est conçu avec une approche responsive (Mobile-First) pour garantir une expérience utilisateur optimale sur tous les appareils. Les points de rupture et les optimisations spécifiques sont détaillés ci-dessous.
@@ -169,14 +160,6 @@ Le site intègre des graphiques dynamiques pour présenter les performances des 
 
 5.  **Polar Area Chart** (Ex: Site Mairie)
     -   Mesures : Visites Site, Téléchargements Docs, Participation Citoyenne, Satisfaction Usagers.
-
-### Caractéristiques des Graphiques
-
--   **Animations fluides** : Chaque graphique bénéficie d'animations d'apparition progressives avec des délais échelonnés, rendant la présentation des données plus dynamique.
--   **Couleurs dynamiques** : Une palette de 8 couleurs attractives est utilisée pour différencier les segments et les données, améliorant la lisibilité.
--   **Interactivité** : Les graphiques sont interactifs, permettant aux utilisateurs de survoler les éléments pour afficher des tooltips informatifs.
--   **Responsive** : Les graphiques s'adaptent automatiquement à la taille de l'écran.
--   **Performance** : Les scripts de graphiques sont optimisés pour un chargement rapide, minimisant l'impact sur les performances globales du site.
 
 ## 📱 Optimisations Mobiles
 
@@ -240,9 +223,6 @@ Au-delà du responsive design général, des optimisations spécifiques ont ét�
     }
 }
 
-/* Les graphiques sont toujours visibles, pas de masquage */
-/* La règle display: none !important; a été supprimée */
-```
 
 ## 🎨 Personnalisation
 
@@ -253,11 +233,11 @@ Les couleurs principales du site sont définies via des variables CSS dans le fi
 
 ```css
 :root {
-    --primary-color: #007bff;   /* Couleur principale (ex: bleu) */
-    --secondary-color: #6c757d; /* Couleur secondaire (ex: gris) */
-    --accent-color: #764ba2;    /* Couleur d'accentuation (ex: violet) */
-    --text-color: #333;         /* Couleur du texte principal */
-    --background-color: #f8f9fa; /* Couleur de fond des sections claires */
+    --primary-color: #007bff;   
+    --secondary-color: #6c757d; 
+    --accent-color: #764ba2;    
+    --text-color: #333;         
+    --background-color: #f8f9fa; 
 }
 ```
 
@@ -280,7 +260,7 @@ renderProjectChart(
     'doughnut' // Type de graphique (bar, line, radar, doughnut, polarArea)
 );
 
-// Vous pouvez ajouter ou modifier d'autres graphiques de la même manière
+
 ```
 
 ## 🤝 Contribution

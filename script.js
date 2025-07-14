@@ -59,26 +59,22 @@ document.addEventListener("DOMContentLoaded", function() {
     }, observerOptions);
 
     animatedElements.forEach((element, index) => {
-        // Add a delay based on index for staggered effect, if desired
-        // element.style.transitionDelay = `${index * 0.05}s`;
         observer.observe(element);
     });
 
-    // Form submission (example - no backend)
+    // Form submission 
     const contactForm = document.querySelector(".contact-form");
     if (contactForm) {
         contactForm.addEventListener("submit", function(e) {
             e.preventDefault();
-            
             contactForm.reset();
         });
     }
 
-    // Chart.js for project pages with enhanced animations and dynamic colors
+    // Chart.js for project pages 
     function renderProjectChart(chartId, data, labels, title, chartType = 'bar') {
         const ctx = document.getElementById(chartId);
         if (ctx) {
-            // Couleurs dynamiques et attractives
             const dynamicColors = [
                 'rgba(255, 99, 132, 0.8)',
                 'rgba(54, 162, 235, 0.8)',
@@ -186,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Example data for charts with more variety and different chart types
+    //  data for charts
     if (currentPath === 'projet-contenu.html') {
         renderProjectChart('contentChart', [65, 45, 30, 80], ['Trafic Organique', 'Taux Engagement', 'Conversions', 'Partages Sociaux'], 'Performance Stratégie de Contenu', 'doughnut');
     } else if (currentPath === 'projet-seo.html') {

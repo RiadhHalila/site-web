@@ -37,8 +37,8 @@ header .container {
 
 /* ---  LOGO --- */
 .logo img {
-    height: 70px;       /* Hauteur fixe */
-    width: auto;      /* Largeur automatique pour maintenir les proportions */
+    height: 70px;       
+    width: auto;      /
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
     transition: all 0.3s ease;
 }
@@ -787,22 +787,22 @@ footer {
     z-index: 1;
 }
 .team-member .social-links {
-    margin-top: 15px; /* Espace entre la description et l'icône */
-    position: relative; /* Assure que l'icône reste au-dessus du pseudo-élément de survol */
+    margin-top: 15px; 
+    position: relative; 
     z-index: 1;
 }
 
 .team-member .social-links a {
-    color: #0077b5; /* Couleur officielle de LinkedIn, pour un look professionnel */
-    font-size: 24px; /* Taille de l'icône */
-    text-decoration: none; /* Supprime le soulignement du lien */
-    transition: all 0.3s ease; /* Transition douce pour le survol */
+    color: #0077b5; 
+    font-size: 24px; 
+    text-decoration: none; 
+    transition: all 0.3s ease;
 }
 
 .team-member .social-links a:hover {
-    color: #005582; /* Une teinte plus foncée de LinkedIn au survol */
-    transform: scale(1.2); /* Agrandit l'icône pour un effet dynamique */
-    text-shadow: 0 0 10px rgba(0, 119, 181, 0.5); /* Ajoute une lueur subtile */
+    color: #005582; 
+    transform: scale(1.2); 
+    text-shadow: 0 0 10px rgba(0, 119, 181, 0.5); 
 }
 
 /* Contact Page Specific */
@@ -956,7 +956,7 @@ footer {
 }
 
 .service-detail-text ul li::before {
-    content: '\f00c'; /* FontAwesome check icon */
+    content: '\f00c'; 
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     color: #28a745;
@@ -977,7 +977,8 @@ footer {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Project Pages Specific */#project-overview .container {
+/* Project Pages Specific */
+#project-overview .container {
     display: block; 
     text-align: center; 
     gap: 40px;
@@ -1013,7 +1014,7 @@ footer {
 }
 
 #project-overview .project-description ul li::before {
-    content: '\f00c'; /* FontAwesome check icon */
+    content: '\f00c'; 
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     color: #28a745;
@@ -1286,13 +1287,6 @@ footer {
     text-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
 }
 
-
-
-
-
-
-
-
 #project-overview .project-description p {
     text-align: left;
 }
@@ -1332,8 +1326,6 @@ footer {
 
 
 
-
-/* Styles pour les sections avec image de fond transparente */
 .hero-section {
     position: relative;
     background-image: url('images/hero-bg.jpg') !important;
